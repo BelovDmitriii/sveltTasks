@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Counter from './lib/Counter.svelte'
   import Card from './lib/Currency-card.svelte'
 </script>
 
