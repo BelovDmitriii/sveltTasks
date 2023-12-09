@@ -1,3 +1,7 @@
 # Задание 2
 
-Конвертация валют
+## Реализация конвертера валют на Svelte JS ##
+
+[Ссылка на проект]
+
+<img src="./public/converter.jpg" alt="Currency converter" width="500px"/>
