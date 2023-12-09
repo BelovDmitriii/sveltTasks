@@ -1,4 +1,5 @@
 {
+  "homepage": "https://BelovDmitriii.github.io/sveltTasks/task_2/",
   "name": "task_2",
   "private": true,
   "version": "0.0.0",
@@ -8,12 +9,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "deploy": "npx gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "@tsconfig/svelte": "^5.0.0",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.1.0",
     "svelte": "^4.0.5",
     "svelte-check": "^3.4.6",
     "tslib": "^2.6.0",
